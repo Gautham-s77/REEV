@@ -24,7 +24,7 @@ table, th, td {
   src: url(dash.otf);
 }
 .container {
-  width: 75%;
+  /* width: 75%; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,7 +48,7 @@ div {
   letter-spacing: 7px;
   align-self: center;
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 h1 {
   align-self: center;
@@ -132,6 +132,12 @@ span {
 
 table { background-color: #3e050536;
   border-radius: 5%;
+  margin: 5px;
   box-shadow: 1px 1px 10px #6b6d6d, 1px 1px 10px #0b7781b5;
   background-image: linear-gradient(160deg, #0094e96c 0%rgba(128, 208, 199, 0.336)C7 100%);
    }
+
+.sobox{
+  border-radius: 10px;
+  background-color: #08fff726;
+}
